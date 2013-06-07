@@ -1,7 +1,7 @@
 parallel-injection-bug
 ======================
 
-A minimal project exposing a bug in Spring Test which breaks injection for parallel tests
+A minimal project exposing a bug in Spring Test which breaks injection for parallel tests. https://jira.springsource.org/browse/SPR-10635
 
 * Running `mvn clean test` fails.
 * Comment out the following line in `log4j.properties` and run the same command and it works.
